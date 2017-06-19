@@ -36,11 +36,11 @@ addSubview(messageTextView)
 Delegates ( all are optional )
 ```swift
 extension MyClass: CGMessageTextViewDelegate {
-func contentSizeDidChange(withContentSize contentSize: CGSize) { }
-func contentSizeWidthDidChange(withWidth width: CGFloat) { }
-func contentSizeDeltaWidthDidChange(withDelta delta: CGFloat) { }
-func contentSizeHeightDidChange(withHeight height: CGFloat) { }
-func contentSizeDeltaHeightDidChange(withDelta delta: CGFloat) { }
+    func contentSizeDidChange(withContentSize contentSize: CGSize) { }
+    func contentSizeWidthDidChange(withWidth width: CGFloat) { }
+    func contentSizeDeltaWidthDidChange(withDelta delta: CGFloat) { }
+    func contentSizeHeightDidChange(withHeight height: CGFloat) { }
+    func contentSizeDeltaHeightDidChange(withDelta delta: CGFloat) { }
 }
 ```
 

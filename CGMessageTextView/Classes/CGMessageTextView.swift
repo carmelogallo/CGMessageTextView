@@ -31,7 +31,7 @@ public protocol CGMessageTextViewDelegate: class {
     func contentSizeDeltaHeightDidChange(withDelta delta: CGFloat)
 }
 
-extension CGMessageTextViewDelegate {
+public extension CGMessageTextViewDelegate {
     func contentSizeDidChange(withContentSize contentSize: CGSize) { }
     func contentSizeWidthDidChange(withWidth width: CGFloat) { }
     func contentSizeDeltaWidthDidChange(withDelta delta: CGFloat) { }
@@ -82,7 +82,7 @@ public class CGMessageTextView: UITextView {
             placeholderLabel.textColor = placeholderTextColor
         }
     }
-    public var placeholderFont: UIFont = UIFont.systemFont(ofSize: 17.0) {
+    public var placeholderFont: UIFont = UIFont.systemFont(ofSize: 15.0) {
         didSet {
             placeholderLabel.font = placeholderFont
         }
@@ -118,6 +118,9 @@ public class CGMessageTextView: UITextView {
     }
     
     private func setupComponents() {
+        // self
+        font = placeholderFont
+        
         // placeholderLabel
         placeholderLabel.numberOfLines = 0
         placeholderLabel.text = placeholderText

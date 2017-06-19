@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/home/Desktop/CGMessageTextView/Example/build/Debug-iphoneos/CGMessageTextView/CGMessageTextView.framework/Modules'
+    'name': '/Users/home/Desktop/Development/Github/CGMessageTextView/Example/build/Debug-iphoneos/CGMessageTextView/CGMessageTextView.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/home/Desktop/CGMessageTextView/Example/build/Pods.build/Debug-iphoneos/CGMessageTextView.build/unextended-module.modulemap',
+      'external-contents': '/Users/home/Desktop/Development/Github/CGMessageTextView/Example/build/Pods.build/Debug-iphoneos/CGMessageTextView.build/unextended-module.modulemap',
     }]
   }]
 }
