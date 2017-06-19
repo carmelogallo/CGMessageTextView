@@ -2,6 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CGMessageTextView-Example.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>CGMessageTextView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>607FACCF1AFB9204008FA782</key>
@@ -10,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>607FACE41AFB9204008FA782</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F458B6751EF84D340010C043</key>
 		<dict>
 			<key>primary</key>
 			<true/>

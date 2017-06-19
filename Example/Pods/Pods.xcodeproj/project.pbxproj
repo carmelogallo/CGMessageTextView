@@ -15,7 +15,6 @@
 		BE83014E1D5924E0A0DE934EB347F160 /* Pods-CGMessageTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF9098EC99B09FAC1CF2346FB73696F /* Pods-CGMessageTextView_Example-dummy.m */; };
 		CB85F0E3EC151AF94374F67068A1F6C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D216029EA55E6DE2C2213CFB5C34A2D2 /* CGMessageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959222AB6EC9FB039FA5AA4F452A197 /* CGMessageTextView.swift */; };
-		D4FAD56C8EFD2B406271382EC16EFE47 /* CGMessageTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DF715C5961FA1ACE87AF82736E1AF2 /* CGMessageTextView-dummy.m */; };
 		DA30A7743E4EE9BA75487985EFD6826C /* CGMessageTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 620596FFE85F6DFF33678FD6E553FB69 /* CGMessageTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -345,7 +344,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4FAD56C8EFD2B406271382EC16EFE47 /* CGMessageTextView-dummy.m in Sources */,
 				D216029EA55E6DE2C2213CFB5C34A2D2 /* CGMessageTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

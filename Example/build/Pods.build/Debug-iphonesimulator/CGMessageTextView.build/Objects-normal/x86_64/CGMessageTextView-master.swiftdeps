@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "23a2b0ad41eb4f6687d2aaf3fc90dcce"
+build_time: [551213188, 835589000]
+inputs:
+  "/Users/home/Desktop/Development/Github/CGMessageTextView/CGMessageTextView/Classes/CGMessageTextView.swift": [551210486, 0]
