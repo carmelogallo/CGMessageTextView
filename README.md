@@ -61,7 +61,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'CGMessageTextView', '~> 1.0.0'
+pod 'CGMessageTextView', '~> 0.1.0'
 end
 ```
 
@@ -85,12 +85,12 @@ $ brew install carthage
 To integrate CGMessageTextView into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "cikpis/CGMessageTextView" ~> 1.0.0
+github "cikpis/CGMessageTextView" ~> 0.1.0
 ```
 
 ## Requirements
 
-- iOS 7.0+
+- iOS 8.0+
 - Xcode 8.0+
 - Swift 3.0+
 
