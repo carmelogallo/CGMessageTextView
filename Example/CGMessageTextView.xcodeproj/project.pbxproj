@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		945CDDD57F546B34F50B64C3 /* Pods_CGMessageTextView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48D28010EA9AD10D21C3F55 /* Pods_CGMessageTextView_Example.framework */; };
 		C5FE0A83C59E59D148A77EF2 /* Pods_CGMessageTextView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1126B62DF7FE5763C85B41D /* Pods_CGMessageTextView_Tests.framework */; };
+		F41546091EF860030099BBD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41546081EF860030099BBD8 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		A1126B62DF7FE5763C85B41D /* Pods_CGMessageTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGMessageTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48D28010EA9AD10D21C3F55 /* Pods_CGMessageTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGMessageTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA432D5DEE17AADB2E1C6A09 /* Pods-CGMessageTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGMessageTextView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGMessageTextView_Example/Pods-CGMessageTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F41546081EF860030099BBD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F458B6781EF84D350010C043 /* CGMessageTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGMessageTextView.h; sourceTree = "<group>"; };
 		F458B6791EF84D350010C043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE1745EBA533952F6D4B7A24 /* Pods-CGMessageTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGMessageTextView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGMessageTextView_Tests/Pods-CGMessageTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				F41546081EF860030099BBD8 /* Default-568h@2x.png */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CGMessageTextView */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				F41546091EF860030099BBD8 /* Default-568h@2x.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
