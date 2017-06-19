@@ -1,0 +1,10 @@
+framework module CGMessageTextView {
+  umbrella header "CGMessageTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CGMessageTextView.__Swift {
+    exclude header "CGMessageTextView-Swift.h"
+}

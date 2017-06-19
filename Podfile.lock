@@ -1,0 +1,16 @@
+PODS:
+  - CGMessageTextView (0.1.0)
+
+DEPENDENCIES:
+  - CGMessageTextView (from `../`)
+
+EXTERNAL SOURCES:
+  CGMessageTextView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CGMessageTextView: 845bee40d26c71d923da045bb8d6b8883331a249
+
+PODFILE CHECKSUM: 64e496f3ceb1dd0f82f580ebbf736d9c87e3c83e
+
+COCOAPODS: 1.2.1

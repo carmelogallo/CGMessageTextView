@@ -1,0 +1,6 @@
+framework module Pods_CGMessageTextView_Example {
+  umbrella header "Pods-CGMessageTextView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
