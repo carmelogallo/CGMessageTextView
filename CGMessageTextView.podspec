@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CGMessageTextView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A UITextView subclass that adds support for changing dinamically the height in base of the text.'
   s.description      = <<-DESC
                        A UITextView subclass that adds support for changing dinamically the height in base of the text. Also it has multiline placeholder thansk to https://github.com/MoZhouqi/KMPlaceholderTextView. All is written in Swift and it use AutoLayout.
