@@ -23,6 +23,11 @@ func contentSizeHeightDidChange(withHeight height: CGFloat)
 func contentSizeDeltaHeightDidChange(withDelta delta: CGFloat)
 ```
 
+If you want to know if the text changed, just use the follow delegate
+```swift
+func textDidChange(withText text: String)
+```
+
 ### Code
 
 Initialization

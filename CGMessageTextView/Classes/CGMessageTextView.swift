@@ -29,6 +29,7 @@ public protocol CGMessageTextViewDelegate: class {
     func contentSizeDeltaWidthDidChange(withDelta delta: CGFloat)
     func contentSizeHeightDidChange(withHeight height: CGFloat)
     func contentSizeDeltaHeightDidChange(withDelta delta: CGFloat)
+    func textDidChange(withText text: String)
 }
 
 public extension CGMessageTextViewDelegate {
@@ -37,6 +38,7 @@ public extension CGMessageTextViewDelegate {
     func contentSizeDeltaWidthDidChange(withDelta delta: CGFloat) { }
     func contentSizeHeightDidChange(withHeight height: CGFloat) { }
     func contentSizeDeltaHeightDidChange(withDelta delta: CGFloat) { }
+    func textDidChange(withText text: String) { }
 }
 
 public class CGMessageTextView: UITextView {
@@ -169,5 +171,6 @@ public class CGMessageTextView: UITextView {
     // MARK: - Private Methods
     @objc private func textDidChange() {
         placeholderLabel.isHidden = !text.isEmpty
+        messageTextViewDelegate?.textDidChange(withText: text)
     }
 }

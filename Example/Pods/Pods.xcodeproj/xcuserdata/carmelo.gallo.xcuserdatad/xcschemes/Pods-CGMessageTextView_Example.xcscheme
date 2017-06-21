@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C5B47808E19B80FAC526279C4098752C"
-               BuildableName = "CGMessageTextView.framework"
-               BlueprintName = "CGMessageTextView"
+               BlueprintIdentifier = "D25FD3C8CE35B2087251513A3DDD77F4"
+               BuildableName = "Pods_CGMessageTextView_Example.framework"
+               BlueprintName = "Pods-CGMessageTextView_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C5B47808E19B80FAC526279C4098752C"
-            BuildableName = "CGMessageTextView.framework"
-            BlueprintName = "CGMessageTextView"
+            BlueprintIdentifier = "D25FD3C8CE35B2087251513A3DDD77F4"
+            BuildableName = "Pods_CGMessageTextView_Example.framework"
+            BlueprintName = "Pods-CGMessageTextView_Example"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D25FD3C8CE35B2087251513A3DDD77F4"
+            BuildableName = "Pods_CGMessageTextView_Example.framework"
+            BlueprintName = "Pods-CGMessageTextView_Example"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
