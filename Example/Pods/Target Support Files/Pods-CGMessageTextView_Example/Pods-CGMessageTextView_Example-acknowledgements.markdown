@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## CGMessageTextView
 
-Copyright (c) 2017 carmelo.g@asasasoftware.com <work@carmelogallo.com>
+Copyright (c) 2017 Carmelo Gallo <work@carmelogallo.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,16 +1,16 @@
 PODS:
-  - CGMessageTextView (0.1.0)
+  - CGMessageTextView (0.2.0)
 
 DEPENDENCIES:
   - CGMessageTextView (from `../`)
 
 EXTERNAL SOURCES:
   CGMessageTextView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  CGMessageTextView: 845bee40d26c71d923da045bb8d6b8883331a249
+  CGMessageTextView: 7ce875585a7e1b8561e44697eebd6223089c24c9
 
 PODFILE CHECKSUM: 64e496f3ceb1dd0f82f580ebbf736d9c87e3c83e
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.0.beta.2

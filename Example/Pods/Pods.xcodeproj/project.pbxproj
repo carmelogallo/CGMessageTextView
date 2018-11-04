@@ -7,123 +7,136 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D0E2692D7DE846763672B983A8F88F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		216B795C9AB99F2117E5AC9A5A14B1DE /* Pods-CGMessageTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1770531E8E27893E6A8117017AB0C6EC /* Pods-CGMessageTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		516616568C195F3B03438B46E2337372 /* Pods-CGMessageTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E657B5858D461192466F83BBB12B2CFB /* Pods-CGMessageTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90D865617859E0442391DBF2044E8C24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BA4E70764392125508419B15CFF5ABED /* Pods-CGMessageTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A000FFD36ADD4588D8A3BE779C1B03BE /* Pods-CGMessageTextView_Tests-dummy.m */; };
-		BE83014E1D5924E0A0DE934EB347F160 /* Pods-CGMessageTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF9098EC99B09FAC1CF2346FB73696F /* Pods-CGMessageTextView_Example-dummy.m */; };
-		CB85F0E3EC151AF94374F67068A1F6C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D216029EA55E6DE2C2213CFB5C34A2D2 /* CGMessageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959222AB6EC9FB039FA5AA4F452A197 /* CGMessageTextView.swift */; };
-		DA30A7743E4EE9BA75487985EFD6826C /* CGMessageTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 620596FFE85F6DFF33678FD6E553FB69 /* CGMessageTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1099AB4D8387FBA37ABB3D5D7E02D1E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		1E09A636AECEC0C63023D7A3C0FA7655 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		2BDE87F6143D4619CE16DDA36FD0695E /* CGMessageTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD29A52690421D83F498BBA9D490ECD /* CGMessageTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39A8912556AEFBA4842C33CC78C1C69A /* CGMessageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496223DB13286AD6F3B89B5F277F922 /* CGMessageTextView.swift */; };
+		3D2D56E438E8677C4372032611E5EF4C /* Pods-CGMessageTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3B8F56B79E26B829A33CC72414A5 /* Pods-CGMessageTextView_Tests-dummy.m */; };
+		4EC310116E5262C89C30D4D1DC8083F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		6431977DBBE4681E3CE514EDA09C9680 /* Pods-CGMessageTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD607D84CE44AE44921F7006E01F8FB /* Pods-CGMessageTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C82BABE35C4218391603FAE92FF64A9 /* Pods-CGMessageTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DACD9DE811294BB331366A8F24F0FA8 /* Pods-CGMessageTextView_Example-dummy.m */; };
+		B0598B835F46BA86967CB0EF0C86C1DD /* Pods-CGMessageTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC7C2A204C267F0C3C1DAD6B6BA0804 /* Pods-CGMessageTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B6AEB7E1AB3CAD04F8AB4163A0020B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		CCC2745F79A75D930E353566671D1BB1 /* CGMessageTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC732F8E2073BF74F610710D404C4DDA /* CGMessageTextView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E0A798696CD1B2CACDACA9304092D1F0 /* PBXContainerItemProxy */ = {
+		0FD8FDF92E99E550565E95658831993D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C5B47808E19B80FAC526279C4098752C;
+			remoteGlobalIDString = AF815A174C994A84B1AC4FEFE212360E;
 			remoteInfo = CGMessageTextView;
+		};
+		ECEC9288BD4AC4E866312732015211D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2ED5D442FE745799B5906FCE7820874;
+			remoteInfo = "Pods-CGMessageTextView_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0445B6F7F9FF6A051695B3BDE0CE68E2 /* Pods-CGMessageTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGMessageTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		05DF715C5961FA1ACE87AF82736E1AF2 /* CGMessageTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGMessageTextView-dummy.m"; sourceTree = "<group>"; };
-		1770531E8E27893E6A8117017AB0C6EC /* Pods-CGMessageTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CGMessageTextView_Example-umbrella.h"; sourceTree = "<group>"; };
-		2AD31F67C38510909FB075D24E03226E /* Pods_CGMessageTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGMessageTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		309A0370DC253FEBFA41C425E8481423 /* Pods-CGMessageTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGMessageTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3218D5042D4A13040059A13AD339A488 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		374E3A4B4AF40A460B6D54C241A6F457 /* Pods-CGMessageTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CGMessageTextView_Example.modulemap"; sourceTree = "<group>"; };
-		49449822327A462BB20914550202535A /* Pods-CGMessageTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGMessageTextView_Example-resources.sh"; sourceTree = "<group>"; };
-		4B8D25508098805445484E527B56D4BB /* Pods-CGMessageTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGMessageTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		593139846F2F60DF133DAD66400985BC /* CGMessageTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CGMessageTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C8A07E58B0D3B60FF47A36DAEA4A8E6 /* CGMessageTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CGMessageTextView.modulemap; sourceTree = "<group>"; };
-		620596FFE85F6DFF33678FD6E553FB69 /* CGMessageTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGMessageTextView-umbrella.h"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		71B6A20DD8AAB6DB0F35E98A8448DA7C /* Pods_CGMessageTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGMessageTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7959222AB6EC9FB039FA5AA4F452A197 /* CGMessageTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGMessageTextView.swift; sourceTree = "<group>"; };
-		7A9241E47003E64B6255FAAD1B6196F0 /* Pods-CGMessageTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGMessageTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7E22BEE8570F9885FD98609114951A77 /* Pods-CGMessageTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGMessageTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8345CFB4D9158D834C7E2FE3A0BF190B /* Pods-CGMessageTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGMessageTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		922E97D227C3854BCCC8EDF69B39DA79 /* CGMessageTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGMessageTextView-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95AB98B2FCC5F395DC48316A3F542AEC /* Pods-CGMessageTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CGMessageTextView_Tests.modulemap"; sourceTree = "<group>"; };
-		A000FFD36ADD4588D8A3BE779C1B03BE /* Pods-CGMessageTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGMessageTextView_Tests-dummy.m"; sourceTree = "<group>"; };
-		A0EC6F3E30A6A0EE08510F0AB86E93D6 /* Pods-CGMessageTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGMessageTextView_Tests-resources.sh"; sourceTree = "<group>"; };
-		A4722EB8E1231CF1B50C120443094F9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5D69F0D66D88232F23FA27F34CC479C /* Pods-CGMessageTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGMessageTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C5DB6D30B6B163B8E104C25B4EDD6BFC /* CGMessageTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGMessageTextView.xcconfig; sourceTree = "<group>"; };
-		E4E4D65D421B6F178EA5769E1FB6A17A /* Pods-CGMessageTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGMessageTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E5F2731280413E8BF75EA14EAEEDF8AB /* Pods-CGMessageTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGMessageTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E657B5858D461192466F83BBB12B2CFB /* Pods-CGMessageTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CGMessageTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EF31D33DBD2304B80AD52AD202AB78FC /* Pods-CGMessageTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGMessageTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FBF9098EC99B09FAC1CF2346FB73696F /* Pods-CGMessageTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGMessageTextView_Example-dummy.m"; sourceTree = "<group>"; };
-		FC93E0DDE533E395875F0D2BF317E2AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABA65E13DC0B83B86E0C4237B07B741 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1E4C3B8F56B79E26B829A33CC72414A5 /* Pods-CGMessageTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGMessageTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		1F33EBBC50C5B71FC5087B85FF8EA1FA /* Pods-CGMessageTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGMessageTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		22FB32070E83C4128D8AA9745A077B8D /* Pods-CGMessageTextView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGMessageTextView_Tests-Info.plist"; sourceTree = "<group>"; };
+		2AD31F67C38510909FB075D24E03226E /* Pods_CGMessageTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CGMessageTextView_Tests.framework; path = "Pods-CGMessageTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B13D3550AD158CD3626367F23D412C3 /* CGMessageTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGMessageTextView.xcconfig; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32A28F3574E29383ED449BACC91EBB27 /* CGMessageTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CGMessageTextView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		593139846F2F60DF133DAD66400985BC /* CGMessageTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CGMessageTextView.framework; path = CGMessageTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC7C2A204C267F0C3C1DAD6B6BA0804 /* Pods-CGMessageTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CGMessageTextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		62587050E7B9822F2A6049417B823A1A /* Pods-CGMessageTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGMessageTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		71B6A20DD8AAB6DB0F35E98A8448DA7C /* Pods_CGMessageTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CGMessageTextView_Example.framework; path = "Pods-CGMessageTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7DACD9DE811294BB331366A8F24F0FA8 /* Pods-CGMessageTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGMessageTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		7E2222CC815FFD5A0341D01CB63E9F42 /* Pods-CGMessageTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGMessageTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EB3708B18C27B5E7954F44F2E333DAC /* Pods-CGMessageTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CGMessageTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		803AC2D2EBEA793E0F716C4D07174FE8 /* Pods-CGMessageTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CGMessageTextView_Example.modulemap"; sourceTree = "<group>"; };
+		985674752159D9C96F0E5478D8004DEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9DD29A52690421D83F498BBA9D490ECD /* CGMessageTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGMessageTextView-umbrella.h"; sourceTree = "<group>"; };
+		ACD607D84CE44AE44921F7006E01F8FB /* Pods-CGMessageTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CGMessageTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B431980E84BB0B36C9D41D7008688CE7 /* Pods-CGMessageTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGMessageTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B764003730C512BDDBC5062D2DC84313 /* Pods-CGMessageTextView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGMessageTextView_Example-Info.plist"; sourceTree = "<group>"; };
+		C63A154ED9D68018EA9F7AC037EC4D76 /* CGMessageTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGMessageTextView-prefix.pch"; sourceTree = "<group>"; };
+		CC732F8E2073BF74F610710D404C4DDA /* CGMessageTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGMessageTextView-dummy.m"; sourceTree = "<group>"; };
+		CD39D4FC90C4A58C54795335450BF1A1 /* Pods-CGMessageTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGMessageTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D58441E875B134709EDF837451FF06F4 /* Pods-CGMessageTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGMessageTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D5BFBD1170B1914E56943E3769A67AC1 /* CGMessageTextView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CGMessageTextView-Info.plist"; sourceTree = "<group>"; };
+		D8C5363C1AA66E8CD6708BDAAB3F324B /* Pods-CGMessageTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGMessageTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E31014B472EF5BD60B2D237270CB716B /* Pods-CGMessageTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGMessageTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFCCF47E67A1DFAAF7C0C52E0C391DD0 /* Pods-CGMessageTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGMessageTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F496223DB13286AD6F3B89B5F277F922 /* CGMessageTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGMessageTextView.swift; path = CGMessageTextView/Classes/CGMessageTextView.swift; sourceTree = "<group>"; };
+		F8BFB0D357D7DE746A7CD7F369F6261F /* CGMessageTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CGMessageTextView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1DBB73EB3A58F5E6637C2DD6E2F901FD /* Frameworks */ = {
+		4DD859969782B73DAD11B263E3F924AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D865617859E0442391DBF2044E8C24 /* Foundation.framework in Frameworks */,
+				B5B6AEB7E1AB3CAD04F8AB4163A0020B /* Foundation.framework in Frameworks */,
+				1E09A636AECEC0C63023D7A3C0FA7655 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B734868D37EAD3FF025EAF47D069A08 /* Frameworks */ = {
+		657395DEBD311FC24756C39853D2B70E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB85F0E3EC151AF94374F67068A1F6C3 /* Foundation.framework in Frameworks */,
+				1099AB4D8387FBA37ABB3D5D7E02D1E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		869F364EA43D5FEBC06FD5A01DB85765 /* Frameworks */ = {
+		80D4000F0DB0C6B896EF698DF6BA82F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D0E2692D7DE846763672B983A8F88F5 /* Foundation.framework in Frameworks */,
+				4EC310116E5262C89C30D4D1DC8083F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0831B8662B00EFBF1304F41AF01083F5 /* CGMessageTextView */ = {
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				53BC7E5ECB320CBC9A3105BDC429E311 /* Classes */,
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
 			);
-			path = CGMessageTextView;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		1BE4DEBD8F0AAB2810FD131DA8AD2AF9 /* Pods-CGMessageTextView_Example */ = {
+		1657846742D59E10DE883D6D14603897 /* CGMessageTextView */ = {
 			isa = PBXGroup;
 			children = (
-				3218D5042D4A13040059A13AD339A488 /* Info.plist */,
-				374E3A4B4AF40A460B6D54C241A6F457 /* Pods-CGMessageTextView_Example.modulemap */,
-				8345CFB4D9158D834C7E2FE3A0BF190B /* Pods-CGMessageTextView_Example-acknowledgements.markdown */,
-				E5F2731280413E8BF75EA14EAEEDF8AB /* Pods-CGMessageTextView_Example-acknowledgements.plist */,
-				FBF9098EC99B09FAC1CF2346FB73696F /* Pods-CGMessageTextView_Example-dummy.m */,
-				0445B6F7F9FF6A051695B3BDE0CE68E2 /* Pods-CGMessageTextView_Example-frameworks.sh */,
-				49449822327A462BB20914550202535A /* Pods-CGMessageTextView_Example-resources.sh */,
-				1770531E8E27893E6A8117017AB0C6EC /* Pods-CGMessageTextView_Example-umbrella.h */,
-				7E22BEE8570F9885FD98609114951A77 /* Pods-CGMessageTextView_Example.debug.xcconfig */,
-				E4E4D65D421B6F178EA5769E1FB6A17A /* Pods-CGMessageTextView_Example.release.xcconfig */,
+				F496223DB13286AD6F3B89B5F277F922 /* CGMessageTextView.swift */,
+				F49E1AD457C3F634A84682D0416F664A /* Pod */,
+				F12418D21CA80526B59F990C7369440F /* Support Files */,
+			);
+			name = CGMessageTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1CD5CAA5D86C07E38E0D67B450C34CF1 /* Pods-CGMessageTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				803AC2D2EBEA793E0F716C4D07174FE8 /* Pods-CGMessageTextView_Example.modulemap */,
+				D8C5363C1AA66E8CD6708BDAAB3F324B /* Pods-CGMessageTextView_Example-acknowledgements.markdown */,
+				7E2222CC815FFD5A0341D01CB63E9F42 /* Pods-CGMessageTextView_Example-acknowledgements.plist */,
+				7DACD9DE811294BB331366A8F24F0FA8 /* Pods-CGMessageTextView_Example-dummy.m */,
+				B431980E84BB0B36C9D41D7008688CE7 /* Pods-CGMessageTextView_Example-frameworks.sh */,
+				B764003730C512BDDBC5062D2DC84313 /* Pods-CGMessageTextView_Example-Info.plist */,
+				5FC7C2A204C267F0C3C1DAD6B6BA0804 /* Pods-CGMessageTextView_Example-umbrella.h */,
+				D58441E875B134709EDF837451FF06F4 /* Pods-CGMessageTextView_Example.debug.xcconfig */,
+				CD39D4FC90C4A58C54795335450BF1A1 /* Pods-CGMessageTextView_Example.release.xcconfig */,
 			);
 			name = "Pods-CGMessageTextView_Example";
 			path = "Target Support Files/Pods-CGMessageTextView_Example";
-			sourceTree = "<group>";
-		};
-		323CB2AAF4F7D70342F603FEB3CA1466 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1BE4DEBD8F0AAB2810FD131DA8AD2AF9 /* Pods-CGMessageTextView_Example */,
-				8D7971F0A5BABAAB5BA76E76FE6F8ED0 /* Pods-CGMessageTextView_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		383826EA5B8DE6D5F8EA7B24A9350DFC /* Products */ = {
@@ -136,145 +149,120 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FDA6EC6D98D8B13A183E58FB47B756A /* CGMessageTextView */ = {
+		396B4AADD06D187D5863205CE57EEC34 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0831B8662B00EFBF1304F41AF01083F5 /* CGMessageTextView */,
-				8C8D9B4EC60E6C5495290C17530AA431 /* Support Files */,
-			);
-			name = CGMessageTextView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4A764D5E926122EA0BB2E22D46E08196 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3FDA6EC6D98D8B13A183E58FB47B756A /* CGMessageTextView */,
+				1657846742D59E10DE883D6D14603897 /* CGMessageTextView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		53BC7E5ECB320CBC9A3105BDC429E311 /* Classes */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7959222AB6EC9FB039FA5AA4F452A197 /* CGMessageTextView.swift */,
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
 			);
-			path = Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		4944833685E3D80328BCA37599C865B0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4A764D5E926122EA0BB2E22D46E08196 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				383826EA5B8DE6D5F8EA7B24A9350DFC /* Products */,
-				323CB2AAF4F7D70342F603FEB3CA1466 /* Targets Support Files */,
+				1CD5CAA5D86C07E38E0D67B450C34CF1 /* Pods-CGMessageTextView_Example */,
+				678F316802EE95AE6F3F4943B135AB72 /* Pods-CGMessageTextView_Tests */,
 			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8C8D9B4EC60E6C5495290C17530AA431 /* Support Files */ = {
+		678F316802EE95AE6F3F4943B135AB72 /* Pods-CGMessageTextView_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5C8A07E58B0D3B60FF47A36DAEA4A8E6 /* CGMessageTextView.modulemap */,
-				C5DB6D30B6B163B8E104C25B4EDD6BFC /* CGMessageTextView.xcconfig */,
-				05DF715C5961FA1ACE87AF82736E1AF2 /* CGMessageTextView-dummy.m */,
-				922E97D227C3854BCCC8EDF69B39DA79 /* CGMessageTextView-prefix.pch */,
-				620596FFE85F6DFF33678FD6E553FB69 /* CGMessageTextView-umbrella.h */,
-				FC93E0DDE533E395875F0D2BF317E2AD /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CGMessageTextView";
-			sourceTree = "<group>";
-		};
-		8D7971F0A5BABAAB5BA76E76FE6F8ED0 /* Pods-CGMessageTextView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A4722EB8E1231CF1B50C120443094F9A /* Info.plist */,
-				95AB98B2FCC5F395DC48316A3F542AEC /* Pods-CGMessageTextView_Tests.modulemap */,
-				309A0370DC253FEBFA41C425E8481423 /* Pods-CGMessageTextView_Tests-acknowledgements.markdown */,
-				4B8D25508098805445484E527B56D4BB /* Pods-CGMessageTextView_Tests-acknowledgements.plist */,
-				A000FFD36ADD4588D8A3BE779C1B03BE /* Pods-CGMessageTextView_Tests-dummy.m */,
-				A5D69F0D66D88232F23FA27F34CC479C /* Pods-CGMessageTextView_Tests-frameworks.sh */,
-				A0EC6F3E30A6A0EE08510F0AB86E93D6 /* Pods-CGMessageTextView_Tests-resources.sh */,
-				E657B5858D461192466F83BBB12B2CFB /* Pods-CGMessageTextView_Tests-umbrella.h */,
-				7A9241E47003E64B6255FAAD1B6196F0 /* Pods-CGMessageTextView_Tests.debug.xcconfig */,
-				EF31D33DBD2304B80AD52AD202AB78FC /* Pods-CGMessageTextView_Tests.release.xcconfig */,
+				7EB3708B18C27B5E7954F44F2E333DAC /* Pods-CGMessageTextView_Tests.modulemap */,
+				E31014B472EF5BD60B2D237270CB716B /* Pods-CGMessageTextView_Tests-acknowledgements.markdown */,
+				EFCCF47E67A1DFAAF7C0C52E0C391DD0 /* Pods-CGMessageTextView_Tests-acknowledgements.plist */,
+				1E4C3B8F56B79E26B829A33CC72414A5 /* Pods-CGMessageTextView_Tests-dummy.m */,
+				22FB32070E83C4128D8AA9745A077B8D /* Pods-CGMessageTextView_Tests-Info.plist */,
+				ACD607D84CE44AE44921F7006E01F8FB /* Pods-CGMessageTextView_Tests-umbrella.h */,
+				62587050E7B9822F2A6049417B823A1A /* Pods-CGMessageTextView_Tests.debug.xcconfig */,
+				1F33EBBC50C5B71FC5087B85FF8EA1FA /* Pods-CGMessageTextView_Tests.release.xcconfig */,
 			);
 			name = "Pods-CGMessageTextView_Tests";
 			path = "Target Support Files/Pods-CGMessageTextView_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				396B4AADD06D187D5863205CE57EEC34 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				383826EA5B8DE6D5F8EA7B24A9350DFC /* Products */,
+				4944833685E3D80328BCA37599C865B0 /* Targets Support Files */,
 			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		F12418D21CA80526B59F990C7369440F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				F8BFB0D357D7DE746A7CD7F369F6261F /* CGMessageTextView.modulemap */,
+				2B13D3550AD158CD3626367F23D412C3 /* CGMessageTextView.xcconfig */,
+				CC732F8E2073BF74F610710D404C4DDA /* CGMessageTextView-dummy.m */,
+				D5BFBD1170B1914E56943E3769A67AC1 /* CGMessageTextView-Info.plist */,
+				C63A154ED9D68018EA9F7AC037EC4D76 /* CGMessageTextView-prefix.pch */,
+				9DD29A52690421D83F498BBA9D490ECD /* CGMessageTextView-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CGMessageTextView";
+			sourceTree = "<group>";
+		};
+		F49E1AD457C3F634A84682D0416F664A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				32A28F3574E29383ED449BACC91EBB27 /* CGMessageTextView.podspec */,
+				985674752159D9C96F0E5478D8004DEC /* LICENSE */,
+				0ABA65E13DC0B83B86E0C4237B07B741 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		233FADF3CB572204B90310CC81A7F596 /* Headers */ = {
+		445E7FB56DD9E091E0BC944F35B8CEF2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				216B795C9AB99F2117E5AC9A5A14B1DE /* Pods-CGMessageTextView_Example-umbrella.h in Headers */,
+				B0598B835F46BA86967CB0EF0C86C1DD /* Pods-CGMessageTextView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		532872DDD0F9B652FC87E90468B50D4B /* Headers */ = {
+		7B5872AE65D7338481E5DE4EEFFB50FA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA30A7743E4EE9BA75487985EFD6826C /* CGMessageTextView-umbrella.h in Headers */,
+				2BDE87F6143D4619CE16DDA36FD0695E /* CGMessageTextView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDEB34102B28AF99D688579B9D445FBC /* Headers */ = {
+		9F7D7CDF04BE2A5DE0AA130F17B2D17A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				516616568C195F3B03438B46E2337372 /* Pods-CGMessageTextView_Tests-umbrella.h in Headers */,
+				6431977DBBE4681E3CE514EDA09C9680 /* Pods-CGMessageTextView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C23145E8D5038E1EB216C5E3576C83FB /* Pods-CGMessageTextView_Tests */ = {
+		AF815A174C994A84B1AC4FEFE212360E /* CGMessageTextView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E5FCA927458C978F4087756667FCC8E /* Build configuration list for PBXNativeTarget "Pods-CGMessageTextView_Tests" */;
+			buildConfigurationList = 43E28C96FFD20100B68FDA6BC77ACD57 /* Build configuration list for PBXNativeTarget "CGMessageTextView" */;
 			buildPhases = (
-				000DAB1C5D6C036FD7B41449E3839B69 /* Sources */,
-				869F364EA43D5FEBC06FD5A01DB85765 /* Frameworks */,
-				FDEB34102B28AF99D688579B9D445FBC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-CGMessageTextView_Tests";
-			productName = "Pods-CGMessageTextView_Tests";
-			productReference = 2AD31F67C38510909FB075D24E03226E /* Pods_CGMessageTextView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C5B47808E19B80FAC526279C4098752C /* CGMessageTextView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B3D0AF41A16569E14B7D99DD9982BAF /* Build configuration list for PBXNativeTarget "CGMessageTextView" */;
-			buildPhases = (
-				35B8CCCB395C0867E1ABDFB29673941E /* Sources */,
-				6B734868D37EAD3FF025EAF47D069A08 /* Frameworks */,
-				532872DDD0F9B652FC87E90468B50D4B /* Headers */,
+				7B5872AE65D7338481E5DE4EEFFB50FA /* Headers */,
+				8840174FBAB86E46CD57B4A676137BD1 /* Sources */,
+				4DD859969782B73DAD11B263E3F924AB /* Frameworks */,
+				F942E7EB3FB3D9BBE6FBA0C0086E0F06 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -285,22 +273,42 @@
 			productReference = 593139846F2F60DF133DAD66400985BC /* CGMessageTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D25FD3C8CE35B2087251513A3DDD77F4 /* Pods-CGMessageTextView_Example */ = {
+		C2ED5D442FE745799B5906FCE7820874 /* Pods-CGMessageTextView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A524C10A7F75771D376F4A25B5C09431 /* Build configuration list for PBXNativeTarget "Pods-CGMessageTextView_Example" */;
+			buildConfigurationList = 4BB8EDA4500644F308CA7D89BFA7760E /* Build configuration list for PBXNativeTarget "Pods-CGMessageTextView_Example" */;
 			buildPhases = (
-				9217AB3016B19A31723B20EBAD4E3049 /* Sources */,
-				1DBB73EB3A58F5E6637C2DD6E2F901FD /* Frameworks */,
-				233FADF3CB572204B90310CC81A7F596 /* Headers */,
+				445E7FB56DD9E091E0BC944F35B8CEF2 /* Headers */,
+				AEAE25DED1E7459FA2650ABF7C2F8923 /* Sources */,
+				80D4000F0DB0C6B896EF698DF6BA82F2 /* Frameworks */,
+				5B443F2595CDCFEEC231148B6E7AFEF9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C60B335DF6D21D4334BCCFC52B75D550 /* PBXTargetDependency */,
+				83A782F545D1B150C9E7C565FD24DCC6 /* PBXTargetDependency */,
 			);
 			name = "Pods-CGMessageTextView_Example";
 			productName = "Pods-CGMessageTextView_Example";
 			productReference = 71B6A20DD8AAB6DB0F35E98A8448DA7C /* Pods_CGMessageTextView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED94E63E18D9C10F05C18D2794BE4FF0 /* Pods-CGMessageTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50394E8E8AC51302C522F96910DBE1E4 /* Build configuration list for PBXNativeTarget "Pods-CGMessageTextView_Tests" */;
+			buildPhases = (
+				9F7D7CDF04BE2A5DE0AA130F17B2D17A /* Headers */,
+				12F8E667E90B788044C651BF78EC1014 /* Sources */,
+				657395DEBD311FC24756C39853D2B70E /* Frameworks */,
+				49003E263FCA3E2A90E80C1FD4962108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D86A136A881791194C1DEEC53EF68C6B /* PBXTargetDependency */,
+			);
+			name = "Pods-CGMessageTextView_Tests";
+			productName = "Pods-CGMessageTextView_Tests";
+			productReference = 2AD31F67C38510909FB075D24E03226E /* Pods_CGMessageTextView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -309,8 +317,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -324,77 +332,245 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5B47808E19B80FAC526279C4098752C /* CGMessageTextView */,
-				D25FD3C8CE35B2087251513A3DDD77F4 /* Pods-CGMessageTextView_Example */,
-				C23145E8D5038E1EB216C5E3576C83FB /* Pods-CGMessageTextView_Tests */,
+				AF815A174C994A84B1AC4FEFE212360E /* CGMessageTextView */,
+				C2ED5D442FE745799B5906FCE7820874 /* Pods-CGMessageTextView_Example */,
+				ED94E63E18D9C10F05C18D2794BE4FF0 /* Pods-CGMessageTextView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		49003E263FCA3E2A90E80C1FD4962108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B443F2595CDCFEEC231148B6E7AFEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F942E7EB3FB3D9BBE6FBA0C0086E0F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		000DAB1C5D6C036FD7B41449E3839B69 /* Sources */ = {
+		12F8E667E90B788044C651BF78EC1014 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4E70764392125508419B15CFF5ABED /* Pods-CGMessageTextView_Tests-dummy.m in Sources */,
+				3D2D56E438E8677C4372032611E5EF4C /* Pods-CGMessageTextView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35B8CCCB395C0867E1ABDFB29673941E /* Sources */ = {
+		8840174FBAB86E46CD57B4A676137BD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D216029EA55E6DE2C2213CFB5C34A2D2 /* CGMessageTextView.swift in Sources */,
+				CCC2745F79A75D930E353566671D1BB1 /* CGMessageTextView-dummy.m in Sources */,
+				39A8912556AEFBA4842C33CC78C1C69A /* CGMessageTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9217AB3016B19A31723B20EBAD4E3049 /* Sources */ = {
+		AEAE25DED1E7459FA2650ABF7C2F8923 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE83014E1D5924E0A0DE934EB347F160 /* Pods-CGMessageTextView_Example-dummy.m in Sources */,
+				7C82BABE35C4218391603FAE92FF64A9 /* Pods-CGMessageTextView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C60B335DF6D21D4334BCCFC52B75D550 /* PBXTargetDependency */ = {
+		83A782F545D1B150C9E7C565FD24DCC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CGMessageTextView;
-			target = C5B47808E19B80FAC526279C4098752C /* CGMessageTextView */;
-			targetProxy = E0A798696CD1B2CACDACA9304092D1F0 /* PBXContainerItemProxy */;
+			target = AF815A174C994A84B1AC4FEFE212360E /* CGMessageTextView */;
+			targetProxy = 0FD8FDF92E99E550565E95658831993D /* PBXContainerItemProxy */;
+		};
+		D86A136A881791194C1DEEC53EF68C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CGMessageTextView_Example";
+			target = C2ED5D442FE745799B5906FCE7820874 /* Pods-CGMessageTextView_Example */;
+			targetProxy = ECEC9288BD4AC4E866312732015211D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		120CFF6C4A0D6470595264F39FE38E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD39D4FC90C4A58C54795335450BF1A1 /* Pods-CGMessageTextView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CGMessageTextView_Example/Pods-CGMessageTextView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CGMessageTextView_Example/Pods-CGMessageTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1547DA524EBFAD80BBE59F8A49BE63F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		52824C42B3ABB1E7C31C1B893EFE5682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62587050E7B9822F2A6049417B823A1A /* Pods-CGMessageTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CGMessageTextView_Tests/Pods-CGMessageTextView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CGMessageTextView_Tests/Pods-CGMessageTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3EB25F4025C917380964E3F08A56321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -403,321 +579,190 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		552E5F0C8C3D786563485B1ECA018D77 /* Release */ = {
+		BF00D573C8C9BB07715B119166549A46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF31D33DBD2304B80AD52AD202AB78FC /* Pods-CGMessageTextView_Tests.release.xcconfig */;
+			baseConfigurationReference = 2B13D3550AD158CD3626367F23D412C3 /* CGMessageTextView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CGMessageTextView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CGMessageTextView_Tests/Pods-CGMessageTextView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CGMessageTextView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5770FCCF63F03547C093E04467B9C312 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5DB6D30B6B163B8E104C25B4EDD6BFC /* CGMessageTextView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CGMessageTextView/CGMessageTextView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CGMessageTextView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/CGMessageTextView/CGMessageTextView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CGMessageTextView/CGMessageTextView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = CGMessageTextView;
 				PRODUCT_NAME = CGMessageTextView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		CA35E1644BEFE2F595CBD0E24635FF11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58441E875B134709EDF837451FF06F4 /* Pods-CGMessageTextView_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CGMessageTextView_Example/Pods-CGMessageTextView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SYMROOT = "${SRCROOT}/../build";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CGMessageTextView_Example/Pods-CGMessageTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E38FDDE190DF12F841C9CAB6C5D56C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B13D3550AD158CD3626367F23D412C3 /* CGMessageTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CGMessageTextView/CGMessageTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CGMessageTextView/CGMessageTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CGMessageTextView/CGMessageTextView.modulemap";
+				PRODUCT_MODULE_NAME = CGMessageTextView;
+				PRODUCT_NAME = CGMessageTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7307A8AD28F3867C14F81EA131CF34AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4E4D65D421B6F178EA5769E1FB6A17A /* Pods-CGMessageTextView_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CGMessageTextView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CGMessageTextView_Example/Pods-CGMessageTextView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CGMessageTextView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		818FFB63CD13883107F1342A64E4AF23 /* Debug */ = {
+		F158050094545D7CDD13B4F9AEE751E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A9241E47003E64B6255FAAD1B6196F0 /* Pods-CGMessageTextView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1F33EBBC50C5B71FC5087B85FF8EA1FA /* Pods-CGMessageTextView_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CGMessageTextView_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CGMessageTextView_Tests/Pods-CGMessageTextView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CGMessageTextView_Tests/Pods-CGMessageTextView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CGMessageTextView_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		8B0701662B9D2F838FDF9160F1170669 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5DB6D30B6B163B8E104C25B4EDD6BFC /* CGMessageTextView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CGMessageTextView/CGMessageTextView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CGMessageTextView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CGMessageTextView/CGMessageTextView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CGMessageTextView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ED880C23E6F797E46AC048D351585398 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E22BEE8570F9885FD98609114951A77 /* Pods-CGMessageTextView_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CGMessageTextView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CGMessageTextView_Example/Pods-CGMessageTextView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CGMessageTextView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B3D0AF41A16569E14B7D99DD9982BAF /* Build configuration list for PBXNativeTarget "CGMessageTextView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B0701662B9D2F838FDF9160F1170669 /* Debug */,
-				5770FCCF63F03547C093E04467B9C312 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				A3EB25F4025C917380964E3F08A56321 /* Debug */,
+				1547DA524EBFAD80BBE59F8A49BE63F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E5FCA927458C978F4087756667FCC8E /* Build configuration list for PBXNativeTarget "Pods-CGMessageTextView_Tests" */ = {
+		43E28C96FFD20100B68FDA6BC77ACD57 /* Build configuration list for PBXNativeTarget "CGMessageTextView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				818FFB63CD13883107F1342A64E4AF23 /* Debug */,
-				552E5F0C8C3D786563485B1ECA018D77 /* Release */,
+				BF00D573C8C9BB07715B119166549A46 /* Debug */,
+				E38FDDE190DF12F841C9CAB6C5D56C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A524C10A7F75771D376F4A25B5C09431 /* Build configuration list for PBXNativeTarget "Pods-CGMessageTextView_Example" */ = {
+		4BB8EDA4500644F308CA7D89BFA7760E /* Build configuration list for PBXNativeTarget "Pods-CGMessageTextView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED880C23E6F797E46AC048D351585398 /* Debug */,
-				7307A8AD28F3867C14F81EA131CF34AF /* Release */,
+				CA35E1644BEFE2F595CBD0E24635FF11 /* Debug */,
+				120CFF6C4A0D6470595264F39FE38E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50394E8E8AC51302C522F96910DBE1E4 /* Build configuration list for PBXNativeTarget "Pods-CGMessageTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52824C42B3ABB1E7C31C1B893EFE5682 /* Debug */,
+				F158050094545D7CDD13B4F9AEE751E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
