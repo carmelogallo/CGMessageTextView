@@ -62,11 +62,11 @@ $ gem install cocoapods
 Simply add the following line to your Podfile:
 
 ```ruby
-platform :ios, '8.0'
+platform :ios, '10.1'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'CGMessageTextView', '~> 0.1.0'
+pod 'CGMessageTextView', '~> 0.2.0'
 end
 ```
 
@@ -90,14 +90,14 @@ $ brew install carthage
 To integrate CGMessageTextView into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "cikpis/CGMessageTextView" ~> 0.1.0
+github "cikpis/CGMessageTextView" ~> 0.2.0
 ```
 
 ## Requirements
 
-- iOS 8.0+
-- Xcode 8.0+
-- Swift 3.0+
+- iOS 10.1+
+- Xcode 10+
+- Swift 4.2+
 
 ## License
 
