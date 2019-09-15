@@ -38,27 +38,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ABA65E13DC0B83B86E0C4237B07B741 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0ABA65E13DC0B83B86E0C4237B07B741 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1E4C3B8F56B79E26B829A33CC72414A5 /* Pods-CGMessageTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGMessageTextView_Tests-dummy.m"; sourceTree = "<group>"; };
 		1F33EBBC50C5B71FC5087B85FF8EA1FA /* Pods-CGMessageTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGMessageTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		22FB32070E83C4128D8AA9745A077B8D /* Pods-CGMessageTextView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGMessageTextView_Tests-Info.plist"; sourceTree = "<group>"; };
-		2AD31F67C38510909FB075D24E03226E /* Pods_CGMessageTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CGMessageTextView_Tests.framework; path = "Pods-CGMessageTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD31F67C38510909FB075D24E03226E /* Pods_CGMessageTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGMessageTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B13D3550AD158CD3626367F23D412C3 /* CGMessageTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGMessageTextView.xcconfig; sourceTree = "<group>"; };
 		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32A28F3574E29383ED449BACC91EBB27 /* CGMessageTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CGMessageTextView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		593139846F2F60DF133DAD66400985BC /* CGMessageTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CGMessageTextView.framework; path = CGMessageTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A28F3574E29383ED449BACC91EBB27 /* CGMessageTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CGMessageTextView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		593139846F2F60DF133DAD66400985BC /* CGMessageTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CGMessageTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC7C2A204C267F0C3C1DAD6B6BA0804 /* Pods-CGMessageTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CGMessageTextView_Example-umbrella.h"; sourceTree = "<group>"; };
 		62587050E7B9822F2A6049417B823A1A /* Pods-CGMessageTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGMessageTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		71B6A20DD8AAB6DB0F35E98A8448DA7C /* Pods_CGMessageTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CGMessageTextView_Example.framework; path = "Pods-CGMessageTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B6A20DD8AAB6DB0F35E98A8448DA7C /* Pods_CGMessageTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGMessageTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7DACD9DE811294BB331366A8F24F0FA8 /* Pods-CGMessageTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGMessageTextView_Example-dummy.m"; sourceTree = "<group>"; };
 		7E2222CC815FFD5A0341D01CB63E9F42 /* Pods-CGMessageTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGMessageTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7EB3708B18C27B5E7954F44F2E333DAC /* Pods-CGMessageTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CGMessageTextView_Tests.modulemap"; sourceTree = "<group>"; };
 		803AC2D2EBEA793E0F716C4D07174FE8 /* Pods-CGMessageTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CGMessageTextView_Example.modulemap"; sourceTree = "<group>"; };
-		985674752159D9C96F0E5478D8004DEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		985674752159D9C96F0E5478D8004DEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9DD29A52690421D83F498BBA9D490ECD /* CGMessageTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGMessageTextView-umbrella.h"; sourceTree = "<group>"; };
 		ACD607D84CE44AE44921F7006E01F8FB /* Pods-CGMessageTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CGMessageTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B431980E84BB0B36C9D41D7008688CE7 /* Pods-CGMessageTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGMessageTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B764003730C512BDDBC5062D2DC84313 /* Pods-CGMessageTextView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGMessageTextView_Example-Info.plist"; sourceTree = "<group>"; };
 		C63A154ED9D68018EA9F7AC037EC4D76 /* CGMessageTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGMessageTextView-prefix.pch"; sourceTree = "<group>"; };
@@ -319,12 +319,18 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					AF815A174C994A84B1AC4FEFE212360E = {
+						LastSwiftMigration = 1100;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -465,7 +471,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -659,8 +665,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -690,7 +695,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
