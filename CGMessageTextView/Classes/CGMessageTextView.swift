@@ -1,7 +1,7 @@
 //
 //  CGMessageTextView.swift
 //
-//  Copyright (c) 2017 Carmelo Gallo (https://carmelogallo.com - https://github.com/cikpis)
+//  Copyright (c) 2019 Carmelo Gallo (https://carmelogallo.com - https://github.com/cikpis)
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -44,18 +44,23 @@ public extension CGMessageTextViewDelegate {
 public class CGMessageTextView: UITextView {
     
     // MARK: - Private UI Properties
+    
     private let placeholderLabel = UILabel()
     
     // MARK: - Private Logic Properties
+    
     private var placeholderLabelConstraints = [NSLayoutConstraint]()
     
     // MARK: - Override Properties
+    
     override public var text: String! {
         didSet { textDidChange() }
     }
+    
     override public var attributedText: NSAttributedString! {
         didSet { textDidChange() }
     }
+    
     override public var contentSize: CGSize {
         didSet {
             guard oldValue != contentSize else { return }
@@ -68,27 +73,33 @@ public class CGMessageTextView: UITextView {
             messageTextViewDelegate?.contentSizeDeltaHeightDidChange(withDelta: deltaHeight)
         }
     }
+    
     override public var textContainerInset: UIEdgeInsets {
         didSet { setupConstraints() }
     }
     
     // MARK: - Public Properties
+    
     public weak var messageTextViewDelegate: CGMessageTextViewDelegate?
+    
     public var placeholderText: String = "Write something..." {
         didSet {
             placeholderLabel.text = placeholderText
         }
     }
+    
     public var placeholderTextColor: UIColor = UIColor.lightGray {
         didSet {
             placeholderLabel.textColor = placeholderTextColor
         }
     }
+    
     public var placeholderFont: UIFont = UIFont.systemFont(ofSize: 15.0) {
         didSet {
             placeholderLabel.font = placeholderFont
         }
     }
+    
     public var placeholderTextAlignment: NSTextAlignment = .left {
         didSet {
             placeholderLabel.textAlignment = placeholderTextAlignment
@@ -96,14 +107,19 @@ public class CGMessageTextView: UITextView {
     }
     
     // MARK: - Life Cycle Methods
+    
     public override init(frame: CGRect, textContainer: NSTextContainer?) {
         super.init(frame: frame, textContainer: textContainer)
-        startSetups()
+        setupComponents()
+        setupConstraints()
+        setupObservers()
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        startSetups()
+        setupComponents()
+        setupConstraints()
+        setupObservers()
     }
     
     deinit {
@@ -113,12 +129,7 @@ public class CGMessageTextView: UITextView {
     }
     
     // MARK: - Setup Methods
-    private func startSetups() {
-        setupComponents()
-        setupConstraints()
-        setupObservers()
-    }
-    
+        
     private func setupComponents() {
         // self
         font = placeholderFont
@@ -169,8 +180,10 @@ public class CGMessageTextView: UITextView {
     }
     
     // MARK: - Private Methods
+    
     @objc private func textDidChange() {
         placeholderLabel.isHidden = !text.isEmpty
         messageTextViewDelegate?.textDidChange(withText: text)
     }
+    
 }
